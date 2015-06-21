@@ -3,21 +3,21 @@
 @import "variables";
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
-  font-size: 2em;
+  font-size: 4em;
   text-align: center;
   background: $blue;
   color: white;
   background-image: url("/images/bg.svg");
-  background-size: 40px 40px;
+  background-size: 6rem 6rem;
 }
 
 .home {
