@@ -18,6 +18,7 @@ body {
   color: white;
   background-image: url("/images/bg.svg");
   background-size: 6rem 6rem;
+  background-position: 0px 0px;
 }
 
 .home {
@@ -26,6 +27,9 @@ body {
 
 .success {
   background-color: $orange;
+  animation-duration: .5s;
+  animation-name: bg-translate;
+  animation-iteration-count: infinite;
 }
 
 .admin {
@@ -35,3 +39,4 @@ body {
 @import "ui";
 @import "type";
 @import "form";
+@import "animation";

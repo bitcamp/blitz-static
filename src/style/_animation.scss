@@ -1,0 +1,16 @@
+.success {
+
+  @keyframes bg-translate { /* CSS3 */
+    0%   { background-position: 0 0; }
+    100% { background-position: 6rem 0; }
+  }
+  @-moz-keyframes bg-translate { /* Firefox */
+    0%   { background-position: 0 0; }
+    100% { background-position: 6rem 0; }
+  }
+  @-webkit-keyframes bg-translate { /* Webkit */
+    0%   { background-position: 0 0; }
+    100% { background-position: 6rem 0; }
+  }
+
+}
