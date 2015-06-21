@@ -18,6 +18,14 @@ body {
   color: white;
 }
 
+.home {
+  background: $blue;
+}
+
+.success {
+  background: $orange;
+}
+
 @import "layout";
 @import "type";
 @import "form";
