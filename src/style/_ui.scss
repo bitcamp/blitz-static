@@ -21,10 +21,48 @@ section {
   margin-top: 10rem;
 }
 
+.user-avatar-wrapper {
+  width: 30rem;
+  height: 30rem;
+  display: block;
+  margin: 0 auto 3rem;
+  animation-duration: .5s;
+  animation-delay: .5s;
+  animation-name: wrapper-margin;
+  animation-iteration-count: once;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
 .user-avatar {
   border-radius: 50%;
   border: 1rem solid white;
   width: 30rem;
+  animation-duration: .5s;
+  animation-name: avatar-in;
+  animation-iteration-count: once;
+  transform-origin: 50% 50%;
+}
+
+.user-fullname, .user-school {
+  opacity: 0;
+  animation-duration: .5s;
+  animation-delay: .5s;
+  animation-name: success-fade;
+  animation-iteration-count: once;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.directions {
+  opacity: 0;
+  animation-duration: .5s;
+  animation-delay: .8s;
+  animation-name: success-fade;
+  animation-iteration-count: once;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
 
 .directions {
