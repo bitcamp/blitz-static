@@ -21,3 +21,17 @@
   @extend .button;
   margin-top: 8rem;
 }
+
+.avatar {
+  border-radius: 50%;
+  border: .5rem solid white;
+  width: 16rem;
+}
+
+.user {
+  margin-top: 2rem;
+}
+
+.directions {
+  margin-top: 12rem;
+}
