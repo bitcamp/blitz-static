@@ -1,6 +1,6 @@
 input[type="text"],input[type="email"] {
   background: none;
-  border-bottom: 1px white solid;
+  border-bottom: 2px white solid;
   text-align: center;
   margin-bottom: 1rem;
   color: white;
@@ -12,22 +12,44 @@ input[type="text"],input[type="email"] {
 }
 
 ::-webkit-input-placeholder {
-    color: rgba(255,255,255,.5);
+    color: $trans-white;
     text-transform: lowercase;
     opacity: 50%;
 }
 :-moz-placeholder {
-    color: rgba(255,255,255,.5);
+    color: $trans-white;
     text-transform: lowercase;
     opacity: 50%;
 }
 ::-moz-placeholder {
-    color: rgba(255,255,255,.5);
+    color: $trans-white;
     text-transform: lowercase;
     opacity: 50%;
 }
 :-ms-input-placeholder {
-    color: rgba(255,255,255,.5);
+    color: $trans-white;
     text-transform: lowercase;
     opacity: 50%;
 }
+
+.form-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.form-file-input::before {
+  content: 'Select File';
+  display: block;
+  // background: rgba(255,255,255,.1);
+  border: 2px dashed white;
+  border-radius: 4px;
+  padding: 4rem 0;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+.form-file-input:hover::before {
+  border-color: $trans-white;
+}
+

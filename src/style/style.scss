@@ -16,14 +16,20 @@ body {
   text-align: center;
   background: $blue;
   color: white;
+  background-image: url("/images/bg.svg");
+  background-size: 40px 40px;
 }
 
 .home {
-  background: $blue;
+  background-color: $blue;
 }
 
 .success {
-  background: $orange;
+  background-color: $orange;
+}
+
+.admin {
+  background-color: #ff4046;
 }
 
 @import "ui";
