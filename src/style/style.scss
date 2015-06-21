@@ -4,8 +4,16 @@
 
 $container: 90%;
 
-body {
+html {
   font-size: 16px;
 }
 
+body {
+  font-size: 2em;
+  text-align: center;
+  background: $blue;
+  color: white;
+}
+
+@import "layout";
 @import "type";
