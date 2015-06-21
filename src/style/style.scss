@@ -17,7 +17,7 @@ body {
   background: $blue;
   color: white;
   background-image: url("/images/bg.svg");
-  background-size: 6rem 6rem;
+  background-size: 10rem 10rem;
   background-position: 0px 0px;
 }
 
@@ -27,6 +27,9 @@ body {
 
 .success {
   background-color: $orange;
+}
+
+.success, .admin-success {
   animation-duration: .5s;
   animation-name: bg-translate;
   animation-iteration-count: infinite;
