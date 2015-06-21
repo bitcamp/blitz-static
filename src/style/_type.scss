@@ -1,5 +1,5 @@
-@include font-face("Avenir", "Avenir/Avenir-Regular", 400);
-@include font-face("Avenir", "Avenir/Avenir-Bold", 700);
+@include font-face("Avenir", "https://dl.dropboxusercontent.com/u/6128235/Avenir/Avenir-Regular", 400);
+@include font-face("Avenir", "https://dl.dropboxusercontent.com/u/6128235/Avenir/Avenir-Bold", 700);
 
 body {
   line-height: 1.4;
@@ -9,7 +9,7 @@ body {
 
 h1 {
   font-size: 10rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 h2 {
