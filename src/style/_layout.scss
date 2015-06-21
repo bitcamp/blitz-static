@@ -1,3 +1,31 @@
 .header {
   margin-top: 5rem;
 }
+
+.form-login {
+  margin-top: 12rem;
+}
+
+input[type="text"] {
+  background: none;
+  border-bottom: 1px white solid;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+  outline: 0;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.button {
+  border-radius: 4px;
+  background: white;
+  padding: 2rem 4rem;
+  cursor: pointer;
+}
+
+.button-bottom {
+  @extend .button;
+  margin-top: 8rem;
+}
