@@ -1,3 +1,16 @@
+input[type="text"],input[type="email"] {
+  background: none;
+  border-bottom: 1px white solid;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+  outline: 0;
+  width: 100%;
+  &:focus {
+    outline: 0;
+  }
+}
+
 ::-webkit-input-placeholder {
     color: rgba(255,255,255,.5);
     text-transform: lowercase;
